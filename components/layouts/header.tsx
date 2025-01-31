@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils"
 import { useSectionStore } from "@/store/section"
 import gsap from "gsap"
 import Link from "next/link"
-import ResumeBtn from "../ResumeBtn"
+// import ResumeBtn from "../ResumeBtn"
 import ThemeSwitch from "../ThemeSwitch"
 import MobileNav from "./MobileNav"
 
@@ -61,7 +61,7 @@ export default function Header() {
             </div>
           </div>
           <div className="col-span-4 flex items-center justify-end gap-2 md:gap-10">
-            <ResumeBtn />
+            {/* <ResumeBtn /> */}
             <ThemeSwitch />
             <MobileNav />
           </div>
