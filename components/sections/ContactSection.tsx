@@ -74,7 +74,7 @@ export default function ContactSection() {
 
         <div className="flex flex-col gap-8 items-center">
           <div className="flex items-center gap-4">
-            <Link
+            {/* <Link
               href="https://www.linkedin.com/in/terry-anderson-b35b8832b"
               target="_blank"
               rel="noopener noreferrer"
@@ -87,7 +87,7 @@ export default function ContactSection() {
               <div className="text-xs dark:text-white group-hover:scale-105">
                 Linkedin
               </div>
-            </Link>
+            </Link> */}
 
             <Link
               href="https://discord.gg/cCwDXfvS"
