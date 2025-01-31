@@ -1,3 +1,5 @@
+"use client"
+
 import { useEffect, useRef } from "react"
 import Code from "@/public/assets/hero/code.png"
 import HeroSpinner from "@/public/assets/hero/hero-spinner.webp"
@@ -12,18 +14,21 @@ export default function HeroTool() {
   const secondSpinnerRef = useRef(null)
 
   useEffect(() => {
-    if (firstSpinnerRef.current && secondSpinnerRef.current) {
-      gsap.to([firstSpinnerRef.current], {
-        rotation: 70,
-        duration: 30,
-        repeat: -1,
-      })
+    // Ensure code runs only in the browser
+    if (typeof window !== "undefined") {
+      if (firstSpinnerRef.current && secondSpinnerRef.current) {
+        gsap.to(firstSpinnerRef.current, {
+          rotation: 70,
+          duration: 30,
+          repeat: -1,
+        })
 
-      gsap.to([secondSpinnerRef.current], {
-        rotation: 70,
-        duration: 30,
-        repeat: -1,
-      })
+        gsap.to(secondSpinnerRef.current, {
+          rotation: 70,
+          duration: 30,
+          repeat: -1,
+        })
+      }
     }
   }, [])
 
