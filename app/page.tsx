@@ -3,6 +3,7 @@ import ContactSection from "@/components/sections/ContactSection"
 import HeroSection from "@/components/sections/HeroSection"
 import MouseSection from "@/components/sections/MouseSection"
 import ProjectSection from "@/components/sections/ProjectSection"
+import SkillsSection from "@/components/sections/SkillsSection"
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <MouseSection />
       <HeroSection />
       <AboutSection />
+      <SkillsSection />
       <ProjectSection />
       <ContactSection />
     </main>
