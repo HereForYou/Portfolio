@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   keywords: ["NextJS", "Portfolio", "GSAP", "ShadcnUI"],
   creator: "Smart Fox",
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon.jpg",
   },
 }
 
