@@ -14,14 +14,14 @@ export const metadata: Metadata = {
   applicationName: "Portfolio",
   openGraph: {
     type: "website",
-    url: "https://devshinthant.vercel.app/",
+    url: "https://smart-fox.top/",
     title: "Smart Fox",
     description:
       "Portfolio website developed with NextJS, TypeScript, ShadcnUI & GSAP.",
     siteName: "Portfolio Website",
     images: [
       {
-        url: "https://i.ibb.co/m5bYtw6/responsive-showcase.png",
+        url: "https://i.ibb.co/Y45c4snb/portfolio.jpg",
       },
     ],
   },
