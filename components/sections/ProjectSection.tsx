@@ -5,6 +5,7 @@ import useOnScreen from "@/hooks/useOnScreen"
 import useScrollActive from "@/hooks/useScrollActive"
 import SmartTradeBot from "@/public/assets/projects/Smart Trading Bot.jpg"
 import Tele from "@/public/assets/projects/Telegram.png"
+import Coinforge from "@/public/assets/projects/coinforge.jpg"
 import Henlo from "@/public/assets/projects/henlo.png"
 import NFT from "@/public/assets/projects/nftbid.png"
 import VoiceNote from "@/public/assets/projects/voice-note.png"
@@ -131,7 +132,7 @@ const projects: Project[] = [
     description:
       "Solana Arbitrage Bot on several dexes including Raydium AMM, CPMM and CLMM, Fluxbeam, Meteora AMM and DLMM, Orca Whirlpool and OpenbookV2.",
     techStacks: ["solana/web3", "Typescript", "Telegram"],
-    image: NFT,
+    image: Henlo,
     websiteUrl: "https://web.telegram.org/a/#@Smart_SOL_Trading_Bot",
   },
   {
@@ -145,12 +146,11 @@ const projects: Project[] = [
   },
   {
     id: 4,
-    title: "Meme Token Presale Platform",
-    description:
-      "Developed the Henlo Token smart contract and a presale contract in Solidity, facilitating both private and public sales. ",
-    techStacks: ["ReactJS", "Solidity", "web3"],
-    image: Henlo,
-    websiteUrl: "https://henlotoken.com/",
+    title: "Solana Token Creatio Platform",
+    description: "Solana Token 2022 Creation Platform with UI.",
+    techStacks: ["web3", "Next.js", "Token 2022"],
+    image: Coinforge,
+    websiteUrl: "https://coinforge.fun/",
   },
   {
     id: 5,
