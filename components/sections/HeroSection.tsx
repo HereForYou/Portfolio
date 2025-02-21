@@ -11,7 +11,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="w-full relative z-[50] min-h-screen bg-baseBackground pt-[4.5rem]"
+      className="w-full relative z-[30] min-h-screen bg-baseBackground pt-[4.5rem]"
     >
       <Image
         className="w-[38rem] absolute top-[6.5rem] md:top-[50%] left-[50%] -translate-x-1/2 md:-translate-y-1/2 select-none pointer-events-none"
